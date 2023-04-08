@@ -1,5 +1,6 @@
 {
 "PrintConnector": {
+ "port": 40213,
  "Type":"Network",
  "Params":{
   "ip":"192.168.123.100",

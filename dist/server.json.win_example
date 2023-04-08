@@ -1,8 +1,0 @@
-{
-"PrintConnector": {
- "Type":"Windows",
- "Params":{
-  "dest":"smb://computer/printer"
- }
-}
-}
