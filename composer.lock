@@ -1,31 +1,30 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "0e021aff8ecc93a78d1fa86ff83ba6cc",
-    "content-hash": "738d3d27d391f6714e4d8026b9627fc9",
+    "content-hash": "5460b6cf997943abf806ac265e1330df",
     "packages": [
         {
             "name": "hassankhan/config",
-            "version": "v2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hassankhan/config.git",
-                "reference": "16fa4d3320ac9bb611dda0c8ea980edb58d227c9"
+                "reference": "62b0fd17540136efa94ab6b39f04044c6dc5e4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hassankhan/config/zipball/16fa4d3320ac9bb611dda0c8ea980edb58d227c9",
-                "reference": "16fa4d3320ac9bb611dda0c8ea980edb58d227c9",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/62b0fd17540136efa94ab6b39f04044c6dc5e4a7",
+                "reference": "62b0fd17540136efa94ab6b39f04044c6dc5e4a7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8 || ~5.7 || ~6.5 || ~7.5",
+                "phpunit/phpunit": "~4.8.36 || ~5.7 || ~6.5 || ~7.5",
                 "scrutinizer/ocular": "~1.1",
                 "squizlabs/php_codesniffer": "~2.2",
                 "symfony/yaml": "~3.4"
@@ -63,7 +62,11 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2019-09-01 15:51:42"
+            "support": {
+                "issues": "https://github.com/hassankhan/config/issues",
+                "source": "https://github.com/hassankhan/config/tree/2.2.0"
+            },
+            "time": "2020-12-07T16:04:15+00:00"
         },
         {
             "name": "hoa/consistency",
@@ -126,7 +129,16 @@
                 "keyword",
                 "library"
             ],
-            "time": "2017-05-02 12:18:12"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Consistency",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Consistency/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Consistency"
+            },
+            "abandoned": true,
+            "time": "2017-05-02T12:18:12+00:00"
         },
         {
             "name": "hoa/event",
@@ -182,7 +194,16 @@
                 "listener",
                 "observer"
             ],
-            "time": "2017-01-13 15:30:50"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Event",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Event/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Event"
+            },
+            "abandoned": true,
+            "time": "2017-01-13T15:30:50+00:00"
         },
         {
             "name": "hoa/exception",
@@ -236,7 +257,16 @@
                 "exception",
                 "library"
             ],
-            "time": "2017-01-16 07:53:27"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Exception",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Exception/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Exception"
+            },
+            "abandoned": true,
+            "time": "2017-01-16T07:53:27+00:00"
         },
         {
             "name": "hoa/http",
@@ -304,7 +334,16 @@
                 "rfc7237",
                 "runtime"
             ],
-            "time": "2017-01-13 15:28:17"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Http",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Http/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Http"
+            },
+            "abandoned": true,
+            "time": "2017-01-13T15:28:17+00:00"
         },
         {
             "name": "hoa/protocol",
@@ -364,7 +403,16 @@
                 "stream",
                 "wrapper"
             ],
-            "time": "2017-01-14 12:26:10"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Protocol",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Protocol/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Protocol"
+            },
+            "abandoned": true,
+            "time": "2017-01-14T12:26:10+00:00"
         },
         {
             "name": "hoa/socket",
@@ -424,7 +472,16 @@
                 "tcp",
                 "udp"
             ],
-            "time": "2017-05-16 07:55:41"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Socket",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Socket/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Socket"
+            },
+            "abandoned": true,
+            "time": "2017-05-16T07:55:41+00:00"
         },
         {
             "name": "hoa/stream",
@@ -488,7 +545,16 @@
                 "stream",
                 "wrapper"
             ],
-            "time": "2017-02-21 16:01:06"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Stream",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Stream/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Stream"
+            },
+            "abandoned": true,
+            "time": "2017-02-21T16:01:06+00:00"
         },
         {
             "name": "hoa/websocket",
@@ -560,7 +626,16 @@
                 "server",
                 "websocket"
             ],
-            "time": "2017-01-09 13:53:08"
+            "support": {
+                "docs": "https://central.hoa-project.net/Documentation/Library/Websocket",
+                "email": "support@hoa-project.net",
+                "forum": "https://users.hoa-project.net/",
+                "irc": "irc://chat.freenode.net/hoaproject",
+                "issues": "https://github.com/hoaproject/Websocket/issues",
+                "source": "https://central.hoa-project.net/Resource/Library/Websocket"
+            },
+            "abandoned": true,
+            "time": "2017-01-09T13:53:08+00:00"
         },
         {
             "name": "mike42/escpos-php",
@@ -615,7 +690,11 @@
                 "print",
                 "receipt"
             ],
-            "time": "2019-10-05 05:59:00"
+            "support": {
+                "issues": "https://github.com/mike42/escpos-php/issues",
+                "source": "https://github.com/mike42/escpos-php/tree/v2.2"
+            },
+            "time": "2019-10-05T05:59:00+00:00"
         }
     ],
     "packages-dev": [],
@@ -627,5 +706,6 @@
     "platform": {
         "php": ">=5.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
